@@ -1,0 +1,158 @@
+
+.Glavni
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px;
+    align-items: stretch;
+    border:1px solid black;
+    align-content: center;
+    width: fit-content;
+    border-collapse: collapse;
+    
+}
+.Upitnici
+{
+   
+   display: flex;
+    align-items: stretch;
+    
+    align-content: center;
+    flex-direction: column;
+}
+.AzilITabela
+{
+    margin:1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: fit-content;
+    border-collapse: collapse;
+   
+}
+button
+{
+    background-color:rgb(233, 230, 133) ;
+    text-align:center;
+}
+.TABELA
+{
+    border: 1px solid black;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: center;
+}
+.Tablica
+{
+    border: 1px solid black;
+  
+}
+.DIALOG
+{
+    border:1px solid black;
+}
+.Kontrole
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin-right: 2px;
+    flex-direction: column;
+   align-items: stretch;
+   justify-content: space-between;
+   align-content: center;
+     resize: both;
+    border-collapse: collapse;
+   
+}
+.DUGMICI
+{
+  display: grid;
+  }
+.usvojibtn
+{
+   
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #d3ce47;
+  border: 1px solid rgb(33, 34, 13);
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+.usvojibtn:hover {background-color: #dee825}
+
+.usvojibtn:active {
+  background-color: #c5cc3f;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+
+} 
+  
+.AZIL
+{
+    flex-wrap: wrap;
+ 
+    display: grid;
+    grid-template-columns: 60px 60px;
+    flex-direction: column;
+    width: fit-content;
+  
+   
+}
+.PasDugme
+{
+    display: flex;
+    border: 1px solid black;
+    margin: 3px;
+    border-radius: 4px;
+    text-align:justify;
+    
+
+}
+.PasDugme:hover
+{
+    background-color: #3e8e41;
+    color: white;
+}
+table,tr,td,thead,tbody
+{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    
+}
+.FormaOdgovarajuciAzil,.FormaDodajPsa,.FormaOdgovarajuciPas,.TABELA
+{
+    flex-wrap: wrap;
+    border: 1px solid black;
+    display: none;
+    margin: 2px;
+    align-items: stretch;
+   justify-content: space-between;
+   align-content: center;
+   flex-direction: column;
+   
+    
+}
+.OtvorenaFormica,.FormaZaValidaciju,.FormaZaRegistraciju
+{
+    flex-direction: column;
+    display: none;
+    align-items:stretch;
+    justify-content:space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.FormaOdgovarajuciAzil
+{
+    flex-wrap: wrap;
+    flex-direction: row;
+}

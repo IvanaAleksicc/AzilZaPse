@@ -1,0 +1,33 @@
+Tabele:
+Pas
+ime,starost, tezina, pol, 
+
+
+
+Azil za pse:
+
+funkcije serverske strane:
+
+dodavanje psa na spsak
+brisanje psa sa spiska kad je usvojen
+azuriranje podataka (npr starost, tezina..)
+pravljenje naloga klijenta(ime, prezime, email)
+mogucnost dodavanja bgroja kratice za doniranje sredstava
+mogucnost prwacenja stanja usvojenih pasa
+
+
+
+klijent:
+
+kad klijent udje vidi slike pasa za udomljavanje. moze da se loguje ( da napravi svoj nalog) ako zeli da udomi psa ili da donira sredstva
+moze da donira proizvoljnu lkol novca i da poveze svoju karticu tako da mu se svakog meseca (datum bira sam) skine neka kolicina novca, moze da bude jednokratno ili na par mes..
+kad klikne na sliku, izadju mu podaci o psu, proizvoljno vise slika.
+
+da bi napravio nalog, klijent mora da unese svoje podatke, ime prezime email
+
+nalog moze da se koristi za usvajanje, doniranje, kombinaciju ili za jednostavno pracenje dostupnih pasa za usvajanje(sistem salje email kada je dostupan novi pas)
+
+ukoliko klijent zeli da  udomi psa onda mora da unese informacije o starosti, da li zivi u kuci/ stanu, ako je u kuci da li ima dvoriste ili ne,da li ima porodicu, decu, koliko sati bi dnevno provodio s njim..
+podaci idu na proveur i ako su zadovoljavajuci onda je tim ide da proveri ifo, ako je sve ok dobija psa i pas se skida sa spiska
+
+posotji i mogucnost da mu sistem predlozi pse, na osnovu odabranih karakteristika, starost duzina dlake, tezina ..
